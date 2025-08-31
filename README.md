@@ -1,3 +1,4 @@
+
 # Frequency-Detection-using-FFT
 
 If input Frequency is 2 Hz and its sampled over 8 Hz, then each cycle we will get 4 samples {0,1,0,-1} repeated for 8 times in 32-point input. 
@@ -17,3 +18,6 @@ But this will further increase the complexity, so to reduce it, Easier way is al
 After several testing with different frequency signal value 10 is taken as a threshold considering input value will be less than 3.3v real world signal. 
 
 10 is represented as 20480 , to compare with this bigger value, mod output is multiplied with 0.01 (2 in Q21.11 ) and compared with 20
+
+<img width="817" height="498" alt="image" src="https://github.com/user-attachments/assets/45cf3dc0-5fb7-46af-89fa-de2e25f10ec2" />
+
